@@ -9,8 +9,9 @@ caso comum - O(n^2)
 pior caso - O(n^2)
 '''
 
-def bubble_sort(lista, n):
+def sort(lista):
     i = 0
+    n = len(lista)
     while(i < n-1):
         j = n-1
         while(j>i):
